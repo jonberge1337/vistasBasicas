@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">vistasBasicas</string>
+    <string name="saluda">Hola mundo, vistasActivity!</string>
+    <string name="primera">Elige opcion</string>
+    <string-array name="combo">
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>cuatro</item>
+        <item>cinco</item>
+    </string-array>
 </resources>

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/darker_gray"
         android:padding="10dp"
-        android:text="Hola Mundo, vistasActivity!" />
+        android:text="@string/saluda" />
 
     <Button
         android:id="@+id/boton"
@@ -28,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
+        android:checked="true"
         android:text="CheckBox" />
 
     <RadioGroup
@@ -36,12 +37,14 @@
         >
 
         <RadioButton
+            android:id="@+id/radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="RadioButton0" />
 
         <RadioButton
+            android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -49,18 +52,23 @@
     </RadioGroup>
 
     <Spinner
+        android:id="@+id/spinner0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
+        android:entries="@array/combo"
+        android:prompt="@string/primera"
         />
 
     <EditText
+        android:id="@+id/EditText0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
         />
 
     <SeekBar
+        android:id="@+id/SeekBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
